@@ -6,6 +6,9 @@
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
+    <!-- ScrolSmooth -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- icon -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
   </head>
@@ -39,9 +42,9 @@
 
     <!-- Home -->
     <section id="home">
-      <div class="contaioner-fluid p-5">
+      <div class="contaioner-fluid p-5" data-aos="fade-up">
         <div class="row justify-content-center pt-5">
-          <div class="col-3">
+          <div class="col-md-3">
             <div class=>
               <img src="image/1.jpg" class="img-fluid rounded-circle" alt="img">
             </div>
@@ -65,22 +68,22 @@
       <div class="container-fluid bg-info p-5">
         <h2 class="text-center">ABOUT</h2>
         <div class="row pt-5">
-          <div class="col-3 text-center fst-italic ">
+          <div class="col-md-3 text-center fst-italic">
             <div><img src="image/b.jpg" class="img-fluid rounded-4" alt="b"></div>
             <h3 class="pt-3">Etichal Hacking</h3>
             <p>Ethical hacking adalah sebuah aktivitas menemukan kelemahan pada sistem atau jaringan untuk dilakukan pengujian agar mengetahui dimana letak kesalahannya dan dapat segera diperbaiki.</p>
           </div>
-          <div class="col-3 text-center fst-italic">
+          <div class="col-md-3 text-center fst-italic">
             <div><img src="image/a.jpg" class="img-fluid rounded-4" alt="a"></div>
             <h3 class="pt-3">Web Hacking</h3>
             <p>Hacking website berarti mengambil kontrol tidak sah atas webserver dan perangkat lunak terkait seperti database dan antar muka lainnya.</p>
           </div>
-          <div class="col-3 text-center fst-italic">
+          <div class="col-md-3 text-center fst-italic">
             <div><img src="image/c.jpg" class="img-fluid rounded-4" alt="c"></div>
             <h3 class="pt-3">Network Hacking</h3>
             <p>Hacking jaringan berarti mengumpulkan informasi tentang jaringan dengan menggunakan alat-alat seperti Telnet, NS lookup, Ping, Tracert, Netstat,dll dengan maksud untuk membahayakan sistem jaringan dan menghambat operasinya.</p>
           </div>
-          <div class="col-3 text-center fst-italic">
+          <div class="col-md-3 text-center fst-italic">
             <div><img src="image/d.jpg" class="img-fluid rounded-4" alt="d"></div>
             <h3 class="pt-3">Password Hacking</h3>
             <p>ini adalah proses pemulihan password rahasia dari data yang tersimpan di atau dikirimkan oleh sistem komputer.</p>
@@ -125,7 +128,7 @@
         <h2 class="text-center pb-5">Overview</h2>
         <div class="container">
           <div class="row">
-            <div class="col-5">
+            <div class="col-md-5">
               <form>
                 <div class="mb-3">
                   <label for="exampleInputEmail1" class="form-label">Email address</label>
@@ -153,13 +156,10 @@
       <p class="text-center">by <i class="bi bi-heart-fill"></i> Adrian</p>
     </footer>
 
-
-
-
-
-
-
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   </body>
